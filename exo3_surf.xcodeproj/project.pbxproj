@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		08088D4A26516FAD005530FC /* Surfer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08088D4926516FAD005530FC /* Surfer.swift */; };
+		08088D4C265170C7005530FC /* Spot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08088D4B265170C7005530FC /* Spot.swift */; };
+		08088D4E26517115005530FC /* ExtensionUIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08088D4D26517115005530FC /* ExtensionUIImageView.swift */; };
+		08088D5026517193005530FC /* Datas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08088D4F26517193005530FC /* Datas.swift */; };
+		08088D52265175FF005530FC /* SurfersController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08088D51265175FF005530FC /* SurfersController.swift */; };
+		08088D542651760F005530FC /* SpotsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08088D532651760F005530FC /* SpotsController.swift */; };
+		08088D5626517689005530FC /* RoundedImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08088D5526517689005530FC /* RoundedImage.swift */; };
+		08088D5826518481005530FC /* surferDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08088D5726518481005530FC /* surferDetailController.swift */; };
+		08AD0CD72670CAC20091B425 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08AD0CD62670CAC20091B425 /* User.swift */; };
 		08D8D00726386A88008E36A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D8D00626386A88008E36A2 /* AppDelegate.swift */; };
 		08D8D00926386A88008E36A2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D8D00826386A88008E36A2 /* SceneDelegate.swift */; };
 		08D8D00B26386A88008E36A2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D8D00A26386A88008E36A2 /* ViewController.swift */; };
@@ -16,6 +25,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		08088D4926516FAD005530FC /* Surfer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Surfer.swift; sourceTree = "<group>"; };
+		08088D4B265170C7005530FC /* Spot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spot.swift; sourceTree = "<group>"; };
+		08088D4D26517115005530FC /* ExtensionUIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionUIImageView.swift; sourceTree = "<group>"; };
+		08088D4F26517193005530FC /* Datas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Datas.swift; sourceTree = "<group>"; };
+		08088D51265175FF005530FC /* SurfersController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurfersController.swift; sourceTree = "<group>"; };
+		08088D532651760F005530FC /* SpotsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotsController.swift; sourceTree = "<group>"; };
+		08088D5526517689005530FC /* RoundedImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedImage.swift; sourceTree = "<group>"; };
+		08088D5726518481005530FC /* surferDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = surferDetailController.swift; sourceTree = "<group>"; };
+		08AD0CD62670CAC20091B425 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		08D8D00326386A88008E36A2 /* exo3_surf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = exo3_surf.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		08D8D00626386A88008E36A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		08D8D00826386A88008E36A2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +81,15 @@
 				08D8D00F26386A89008E36A2 /* Assets.xcassets */,
 				08D8D01126386A89008E36A2 /* LaunchScreen.storyboard */,
 				08D8D01426386A89008E36A2 /* Info.plist */,
+				08088D4926516FAD005530FC /* Surfer.swift */,
+				08AD0CD62670CAC20091B425 /* User.swift */,
+				08088D4B265170C7005530FC /* Spot.swift */,
+				08088D4F26517193005530FC /* Datas.swift */,
+				08088D4D26517115005530FC /* ExtensionUIImageView.swift */,
+				08088D51265175FF005530FC /* SurfersController.swift */,
+				08088D532651760F005530FC /* SpotsController.swift */,
+				08088D5526517689005530FC /* RoundedImage.swift */,
+				08088D5726518481005530FC /* surferDetailController.swift */,
 			);
 			path = exo3_surf;
 			sourceTree = "<group>";
@@ -137,9 +164,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08088D52265175FF005530FC /* SurfersController.swift in Sources */,
+				08088D4C265170C7005530FC /* Spot.swift in Sources */,
+				08088D5026517193005530FC /* Datas.swift in Sources */,
 				08D8D00B26386A88008E36A2 /* ViewController.swift in Sources */,
 				08D8D00726386A88008E36A2 /* AppDelegate.swift in Sources */,
+				08088D4A26516FAD005530FC /* Surfer.swift in Sources */,
+				08088D4E26517115005530FC /* ExtensionUIImageView.swift in Sources */,
+				08088D5626517689005530FC /* RoundedImage.swift in Sources */,
+				08AD0CD72670CAC20091B425 /* User.swift in Sources */,
+				08088D5826518481005530FC /* surferDetailController.swift in Sources */,
 				08D8D00926386A88008E36A2 /* SceneDelegate.swift in Sources */,
+				08088D542651760F005530FC /* SpotsController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +325,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4QQ2GC97M5;
 				INFOPLIST_FILE = exo3_surf/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -296,7 +333,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "alex.exo3-surf";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -308,6 +345,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4QQ2GC97M5;
 				INFOPLIST_FILE = exo3_surf/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,7 +353,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "alex.exo3-surf";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
